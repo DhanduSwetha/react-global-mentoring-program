@@ -1,0 +1,14 @@
+.movies-content {
+    height: calc(60vh);
+}
+.increment{
+    background-color: red;
+    color: white;
+    border: none;
+    margin: 0 10px;
+}
+.decrement{
+    background-color: red;
+    color: white;
+    border: none;
+}

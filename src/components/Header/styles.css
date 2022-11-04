@@ -1,0 +1,25 @@
+.header {
+    background-image: url(../../common/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(31vh);
+    padding-top: 1.5vh;
+}
+
+.find-movie {
+    font-size: 1.5rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+.movie-search {
+    width: 100%;
+    float: left;
+    display: flex;
+}
+
+.find-movie-row {
+    /* min-height: calc(50vh - 150px); */
+    padding-left: 6rem;
+   
+}

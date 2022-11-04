@@ -1,0 +1,13 @@
+.netflix-wrapper {
+    position: relative;
+    text-align: center;
+    background-color: #696969;
+    height: calc(7.5vh);
+}
+
+.netflix {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
