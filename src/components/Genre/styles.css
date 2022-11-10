@@ -1,0 +1,13 @@
+.genre{
+    height: 100%;
+    padding: 0 5px;
+    color: #FFFFFF;
+    font-size: small; 
+}
+.genre-input{
+    display: none;
+    cursor: pointer;
+}
+label:hover {
+    cursor: pointer;
+}

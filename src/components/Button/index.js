@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import PropTypes from "prop-types";
 import "./styles.css";
 
 const ButtonComp = (props) => {
@@ -13,5 +14,9 @@ const ButtonComp = (props) => {
       {props.name}
     </Button>
   );
+};
+ButtonComp.propTypes = {
+  name: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 export default ButtonComp;

@@ -10,6 +10,9 @@ const Content = () => {
   const handleChange = (e) => {
     setValue(e.target.value);
   };
+  const handleClick = () => {
+    console.log("Button Clicked");
+  };
   return (
     <Row className="header">
       <Row>
@@ -29,11 +32,7 @@ const Content = () => {
             placeholder="What do you want to watch?"
             required
           />
-          <ButtonComp
-            color="red"
-            name="Search"
-            // onClick={}
-          />
+          <ButtonComp color="red" name="Search" onClick={handleClick} />
         </Row>
       </Row>
       <Row></Row>

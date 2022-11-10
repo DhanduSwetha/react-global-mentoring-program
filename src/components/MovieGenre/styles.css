@@ -1,0 +1,44 @@
+.movie-genre-dropdown {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #555555;
+    text-transform: uppercase;
+}
+
+.movie-genre {
+    width: 75%;
+    display: flex;
+    justify-content: left;
+    height: 30px;
+}
+
+.sort-dropdown {
+    font-size: small;
+    width: 25%;
+    float: right;
+    display: flex;
+}
+
+.sort-dropdown .rdn-control {
+    background-color: transparent;
+    color: white; 
+    border: none;
+    padding: 0;
+}
+
+.sort-dropdown .rdn {
+    color: white;
+    width: 75%;
+}
+
+.sort-dropdown span {
+    margin-right: auto;
+    color: #696969;
+}
+.sort-dropdown .rdn-control-arrow-icon {
+    top:10px;
+    right:15px;
+}
+:root {
+    --icon-color: #F65261;
+  }
