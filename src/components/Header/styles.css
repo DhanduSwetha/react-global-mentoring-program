@@ -1,9 +1,8 @@
 .header {
     background-image: url(../../common/header.png);
-    background-repeat: no-repeat;
     background-size: cover;
     min-height: calc(31vh);
-    padding-top: 1.5vh;
+    margin: 0 20px 5px 20px;
 }
 
 .find-movie {

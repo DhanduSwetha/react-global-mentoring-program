@@ -1,0 +1,16 @@
+.error-boundary-wrapper {
+    text-align: center;
+}
+
+.error {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.error h1{
+    color: red;
+}
+.error p{
+    color: #F65261;
+}
