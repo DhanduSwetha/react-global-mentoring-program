@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
-import DropDown from "../DropDown";
+import DropDown from "../../common/DropDown";
 import Genre from "../Genre";
 import "./styles.css";
 
@@ -10,6 +10,18 @@ const MovieGenre = () => {
     setActive(e.target.name);
     console.log("active", active);
   };
+  const options = [
+    {
+      id: 1,
+      value: "release date",
+      label: "release date",
+    },
+    {
+      id: 2,
+      value: "movie name",
+      label: "movie name",
+    },
+  ];
   return (
     <Row className="movie-genre-dropdown">
       <Col className="movie-genre" md={8}>
@@ -31,7 +43,7 @@ const MovieGenre = () => {
       </Col>
       <Col className="sort-dropdown" md={4}>
         <span>Sort By</span>
-        <DropDown />
+        <DropDown options={options} value={options[0]} />
       </Col>
     </Row>
   );

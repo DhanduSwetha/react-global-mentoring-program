@@ -1,24 +1,59 @@
 .header {
-    background-image: url(../../common/header.png);
-    background-size: cover;
-    min-height: calc(31vh);
-    margin: 0 20px 5px 20px;
+  background-image: url(../../common/header.png);
+  background-size: cover;
+  min-height: calc(30vh);
+  margin: 0 20px 5px 20px;
 }
 
 .find-movie {
-    font-size: 1.5rem;
-    color: white;
-    font-family: sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  font-family: sans-serif;
 }
 
 .movie-search {
-    width: 100%;
-    float: left;
-    display: flex;
+  width: 100%;
+  float: left;
+  display: flex;
+}
+
+.netflix-roulette {
+  width: 85%;
+}
+
+.add-movie {
+  padding-top: 10px;
+  width: 15%;
+  margin: auto;
 }
 
 .find-movie-row {
-    /* min-height: calc(50vh - 150px); */
-    padding-left: 6rem;
-   
+  padding-left: 6rem;
+}
+
+.movie-search .btn {
+  background-color: #f65261;
+  color: white;
+  border: none;
+  padding: 5px;
+  min-width: 10%;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+.netflix-add-movie {
+  width: 100%;
+  display: flex;
+}
+
+.netflix-add-movie .btn {
+  background-color: #555555;
+  color: #f65261;
+  padding: 5px;
+  font-size: small;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
 }

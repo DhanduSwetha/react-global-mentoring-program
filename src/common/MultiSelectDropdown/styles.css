@@ -1,0 +1,57 @@
+.dropdown-check-list {
+  display: inline-block;
+}
+
+.dropdown-check-list .anchor {
+  color: #ffffff;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+  width: 376px;
+  background: #424242;
+}
+.items input[type="checkbox"]:checked {
+  background: #f65261;
+}
+.dropdown-check-list .anchor:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #f65261;
+  right: 10px;
+  top: 35%;
+  -moz-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+
+.dropdown-check-list .anchor:active:after {
+  right: 10px;
+  top: 35%;
+}
+
+.dropdown-check-list ul.items {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border-top: none;
+}
+
+.dropdown-check-list ul.items li {
+  color: #ffffff;
+  list-style: none;
+}
+
+.dropdown-check-list.visible .items {
+  display: block;
+  background: #424242;
+  width: 432px;
+  position: absolute;
+  z-index: 1;
+}

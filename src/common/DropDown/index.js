@@ -1,15 +1,14 @@
 import React from "react";
-import "./styles.css";
 import { Dropdown } from "react-dropdown-now";
 import "react-dropdown-now/style.css";
 
-const DropDown = () => {
+const DropDown = (props) => {
   return (
     <Dropdown
-      options={["release date", "movie name"]}
-      value="release date"
-      onChange={(value) => console.log("change!", value)}
-      onSelect={(value) => console.log("selected!", value)}
+      options={props.options}
+      value={props.value}
+      // onChange={(e) => props.setValue(e.target.value)}
+      // onSelect={(e) => props.setValue(e.target.value)}
       onClose={(closedBySelection) =>
         console.log("closedBySelection?:", closedBySelection)
       }
