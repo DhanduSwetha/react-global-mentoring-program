@@ -1,14 +1,6 @@
 .movies-content {
-    height: calc(60vh);
-}
-.increment{
-    background-color: red;
-    color: white;
-    border: none;
-    margin: 0 10px;
-}
-.decrement{
-    background-color: red;
-    color: white;
-    border: none;
+    height: calc(60vh - 25px);
+    margin: 0 20px;
+    background-color: #232323;
+    padding: 10px 20px;
 }

@@ -3,14 +3,21 @@ import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Movies from "./components/Movies";
+import { Row } from "react-bootstrap";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Movies />
-      <Footer />
-    </div>
+    <Row className="movie-app">
+      <>
+        <Header />
+      </>
+      <>
+        <Movies />
+      </>
+      <>
+        <Footer />
+      </>
+    </Row>
   );
 }
 
